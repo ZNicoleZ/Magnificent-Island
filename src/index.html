@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Magnificent Island by Nicole Zarch</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Patua+One&family=Quattrocento:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="bg"></div>
+<div class="goblin"></div>
+<div class="gems"></div>
+<div class="title-container">
+    <h1 class="title">Magnificent</h1>
+    <h1 class="title">Island</h1>
+    <h2 class="subtitle">A 3D Game in Unity</h2>
+    <h3 class="scroll-ready">Ready to face the darkness?</h3>
+    <button class="btn-scroll-down" onclick="scrollToDemo()">Scroll down for the video demo</button>
+</div>
+<div class="video-container">
+  <video class="game-demo" width="560" height="315" controls>
+    <source src="../video/GameDevProject_NicoleZarch.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+
+<script>
+  function scrollToDemo() {
+    const demoContainer = document.querySelector('.video-container');
+    demoContainer.scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+
+</body>
+</html>

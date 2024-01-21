@@ -1,0 +1,175 @@
+.bg{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 150vw;
+  height: 150vh;
+  top: -40vh;
+  left: -40vw;
+  background: url("../images/cave2.jpg") no-repeat;
+  background-size: cover;
+  filter: blur(50px) brightness(0.6);
+  z-index: -1;
+}
+.goblin{
+  background: url("../images/goblin.png") no-repeat;
+  background-size: cover;
+  position: fixed;
+  bottom: -4vh;
+  left: -17vh;
+  width: 70vh;
+  height: 70vh;
+  transition: 0.5s;
+}
+.goblin:hover{
+  filter: brightness(1.4);
+  transition: 0.5s;
+}
+.gems{
+  background: url("../images/gems.png") no-repeat;
+  background-size: cover;
+  position: fixed;
+  bottom: -13vh;
+  right: -3vh;
+  width: 60vh;
+  height: 50vh;
+  transition: 0.5s;
+}
+.gems:hover{
+  filter: brightness(1.4);
+  transition: 0.5s;
+}
+.video-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.game-demo{
+  width: 56vw;
+  height: 31.5vw;
+  border-radius: 2vh;
+  box-shadow: 0vw 1vw 4vw rgba(0, 0, 0, 0.7);
+}
+.title-container {
+  font-family: "Quattrocento", serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.info-container {
+  padding-left: 7vw;
+  padding-right: 7vw;
+  font-family: "Quattrocento", serif;
+  font-weight: 100;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+.title{
+  text-shadow: 0vw 1vw 3vw rgb(0, 0, 0, 0.5);
+  font-size: 10vw;
+  color: rgb(255, 217, 0);
+  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 60%, #8A6E2F 10%, transparent 40%),
+              radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 15%, #D1B464 25%, #ffd778 60%, #5d4a1f 80%); 
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+	text-transform: uppercase;
+  -webkit-text-stroke: #FFFFAC 0.05vw;
+}
+.subtitle{
+  margin-top: 3vh;
+  font-size: 2.5vw;
+}
+.scroll-ready{
+  margin-top: 8vh;
+  font-size: 3vh;
+  font-weight: 200;
+}
+.btn-scroll-down {
+  font-family: "Quattrocento", serif;
+  font-weight: 600;
+  font-size: 2vh;
+  padding: 1vw 2vw 1vw 2vw;
+  margin-top: 2vh;
+  background-color: rgba(111, 76, 255, 0.15);
+  border-radius: 5vw;
+  border: 0.1vh solid rgba(111, 76, 255, 0.25);
+  color: rgba(255, 255, 255, 0.8);
+  transition: 0.5s;
+}
+.btn-scroll-down:hover {
+  background-color: rgba(111, 76, 255, 0.45);
+  border: 1px solid rgba(111, 76, 255, 0.6);
+  color: rgba(255, 255, 255, 0.9);
+  transition: 0.5s;
+  cursor: pointer;
+}
+.game-info{
+  text-shadow: 0vw 0.5vw 1vw rgb(0, 0, 0, 0.7);
+  color: rgb(255, 243, 188);
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 2vh;
+}
+.project-info{
+  text-shadow: 0vw 0.5vw 1vw rgb(0, 0, 0, 0.7);
+  color: rgb(255, 243, 188);
+  font-family: "Roboto Slab", serif;
+  font-weight: 300;
+  font-size: 2vh;
+}
+h2, h3 {
+  margin: 0;
+}
+h1 {
+  margin: -2.5vw;
+}
+
+@media only screen and (max-aspect-ratio: 1/1) {
+  
+  .title-container {
+    justify-content: flex-start;
+    padding: 25vh 1vw 1vw 1vw;;
+  }
+
+  .title {
+    font-size: 10.5vw;
+  }
+
+  .subtitle{
+    font-size: 4.5vw;
+  }
+
+  .goblin{
+    bottom: -4vh;
+    left: -11vh;
+    width: 45vh;
+    height: 45vh;
+  }
+
+  .gems{
+    bottom: -10vh;
+    right: -4vh;
+    width: 45vh;
+    height: 35vh;
+  }
+
+  .game-demo{
+    width: 53.5vh;
+    height: 95.2vh;
+    border-radius: 2vh;
+    background-color: black;    
+    box-shadow: 0vw 1vw 4vw rgba(0, 0, 0, 0.7);
+    z-index: 200;
+  }
+}
+
+
+
