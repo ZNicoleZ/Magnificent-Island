@@ -46,6 +46,7 @@
   justify-content: center;
 }
 .game-demo{
+  z-index: 200;
   width: 56vw;
   height: 31.5vw;
   border-radius: 2vh;
@@ -88,7 +89,7 @@
   font-size: 2.5vw;
 }
 .scroll-ready{
-  z-index: 100;
+  z-index: 200;
   margin-top: 6vh;
   font-size: 3vh;
   font-weight: 200;
@@ -113,13 +114,6 @@
   cursor: pointer;
 }
 .game-info{
-  text-shadow: 0vw 0.5vw 1vw rgb(0, 0, 0, 0.7);
-  color: rgb(255, 243, 188);
-  font-family: "Roboto Slab", serif;
-  font-weight: 300;
-  font-size: 2vh;
-}
-.project-info{
   text-shadow: 0vw 0.5vw 1vw rgb(0, 0, 0, 0.7);
   color: rgb(255, 243, 188);
   font-family: "Roboto Slab", serif;
@@ -168,7 +162,6 @@ h1 {
     border-radius: 2vh;
     background-color: black;    
     box-shadow: 0vw 1vw 4vw rgba(0, 0, 0, 0.7);
-    z-index: 200;
   }
 }
 
