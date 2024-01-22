@@ -16,7 +16,7 @@ Abandoned on a monster-infested ship, you seek refuge in a dimly-lit tavern. But
 Due to technical challenges, I've encountered difficulties uploading the game to various platforms. As a result, the executable file is not included in this repository. You can still experience the game by checking out the video demo in the link below.
 
 ### 🎥 Video Demo
-[Watch the Video Demo](your_video_demo_link_here)  
+[Watch the Video Demo](https://www.youtube.com/watch?v=STQJmP5GCM4)  
 
 ## 📸 Some screenshots:
 ![image](https://github.com/ZNicoleZ/Magnificent-Island/assets/80704425/8c05b978-5770-42a0-9476-371b954fcc39)
