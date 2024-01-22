@@ -6,13 +6,13 @@
   height: 150vh;
   top: -40vh;
   left: -40vw;
-  background: url("/images/cave2.jpg") no-repeat;
+  background: url("../images/cave2.jpg") no-repeat;
   background-size: cover;
   filter: blur(50px) brightness(0.6);
   z-index: -1;
 }
 .goblin{
-  background: url("/images/goblin.png") no-repeat;
+  background: url("../images/goblin.png") no-repeat;
   background-size: cover;
   position: fixed;
   bottom: -4vh;
@@ -26,7 +26,7 @@
   transition: 0.5s;
 }
 .gems{
-  background: url("/images/gems.png") no-repeat;
+  background: url("../images/gems.png") no-repeat;
   background-size: cover;
   position: fixed;
   bottom: -13vh;
